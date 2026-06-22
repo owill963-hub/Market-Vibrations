@@ -1,0 +1,108 @@
+{
+  "day": "2026-06-18",
+  "asOf": "flatfiles",
+  "scan": [
+    {
+      "ticker": "SPY",
+      "setup": "signal",
+      "side": "short",
+      "pool": "PMH",
+      "sweptLevel": 748.02,
+      "entry": 747.51,
+      "stop": 748.57,
+      "target": 743.35,
+      "rr": 3.91,
+      "sweptAt": "13:30Z",
+      "pools": {
+        "PDH": 752.15,
+        "PDL": 739.22,
+        "PMH": 748.02,
+        "PML": 743.35
+      }
+    },
+    {
+      "ticker": "QQQ",
+      "setup": "signal",
+      "side": "short",
+      "pool": "PMH",
+      "sweptLevel": 737.6,
+      "entry": 735.5,
+      "stop": 738.02,
+      "target": 721.97,
+      "rr": 5.37,
+      "sweptAt": "13:30Z",
+      "pools": {
+        "PDH": 735.68,
+        "PDL": 720.85,
+        "PMH": 737.6,
+        "PML": 721.97
+      }
+    },
+    {
+      "ticker": "AAPL",
+      "setup": "signal",
+      "side": "short",
+      "pool": "PMH",
+      "sweptLevel": 298.82,
+      "entry": 298.29,
+      "stop": 300.07,
+      "target": 295.87,
+      "rr": 1.36,
+      "sweptAt": "13:33Z",
+      "pools": {
+        "PDH": 302.07,
+        "PDL": 294.36,
+        "PMH": 298.82,
+        "PML": 295.87
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "setup": "sweep_no_fvg",
+      "side": "short",
+      "pool": "PMH",
+      "pools": {
+        "PDH": 209.21,
+        "PDL": 203.08,
+        "PMH": 208.35,
+        "PML": 205.2
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "setup": "sweep_no_fvg",
+      "side": "long",
+      "pool": "PML",
+      "pools": {
+        "PDH": 405.94,
+        "PDL": 393.76,
+        "PMH": 400.0,
+        "PML": 397.18
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "setup": "no_target",
+      "side": "long",
+      "pool": "PDL",
+      "pools": {
+        "PDH": 390.37,
+        "PDL": 377.32,
+        "PMH": 382.88,
+        "PML": 376.8
+      }
+    },
+    {
+      "ticker": "AMD",
+      "setup": "sweep_no_fvg",
+      "side": "short",
+      "pool": "PDH",
+      "pools": {
+        "PDH": 532.5,
+        "PDL": 507.3,
+        "PMH": 535.5,
+        "PML": 520.25
+      }
+    }
+  ]
+}
